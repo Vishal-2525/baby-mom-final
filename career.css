@@ -1,0 +1,432 @@
+/* General layout reset */
+
+  
+.career .career-section {
+  background-color: #fff;
+  display: flex;
+  padding-top: 40px;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+}
+
+.career .hero-section {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  position: relative;
+  min-height: 650px;
+  margin-top: 40px;
+  width: 100%;
+  align-items: start;
+  color: #fff;
+  font-weight: 500;
+  line-height: 28px;
+  justify-content: center;
+  padding: 165px 80px;
+}
+.career .hero-section .hero-bg {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.career .hero-content {
+  position: relative;
+  display: flex;
+  width: 711px;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: start;
+}
+.career .hero-title {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 58px;
+  align-self: stretch;
+}
+.career .hero-subtitle {
+  font-size: 18px;
+  margin-top: 16px;
+}
+.career .cta-button {
+  border-radius: 8px;
+  background-color: #025fe0;
+  display: flex;
+  margin-top: 24px;
+  min-height: 50px;
+  align-items: center;
+  gap: 16px;
+  font-size: 16px;
+  justify-content: start;
+  padding: 11px 16px;
+  text-decoration: none;
+  color: #fff;
+}
+.career .cta-icon {
+  aspect-ratio: 1.2;
+  object-fit: contain;
+  object-position: center;
+  width: 12px;
+}
+.career .benefits-section {
+  background-color: #ebf3ff;
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+}
+.career .benefits-title {
+  color: #161c2d;
+  text-align: center;
+  font: 700 48px/1 Inter, sans-serif;
+}
+.career .benefits-subtitle {
+  color: #161c2d;
+  text-align: center;
+  margin: 31px 0 0;
+  font: 500 18px/32px Inter, sans-serif;
+}
+.career .benefits-grid {
+  margin-top: 75px;
+  width: 100%;
+  max-width: 1240px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.career .benefit-card {
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 100px 80px rgba(0, 0, 0, 0.02);
+  display: flex;
+  min-height: 200px;
+  width: 100%;
+  flex-direction: column;
+  color: #161c2d;
+  justify-content: center;
+  padding: 24px;
+}
+.career .benefit-content {
+  display: flex;
+  width: 100%;
+  align-items: start;
+  gap: 16px;
+}
+.career .benefit-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 40px;
+}
+.career .benefit-text {
+    padding-top: 2px;
+  display: flex;
+  min-width: 240px;
+  padding-right: 2px;
+  flex-direction: column;
+  align-items: start;
+  width: 250px;
+}
+.career .benefit-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.5px;
+}
+.career .benefit-description {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 34px;
+}
+.career .job-openings-section {
+  margin-top: 120px;
+}
+.career .job-openings-title {
+  color: #161c2d;
+  text-align: center;
+  font: 700 48px/1 Inter, sans-serif;
+}
+.career .job-card {
+  border-radius: 10px;
+  background-color: #ebf3ff;
+  box-shadow: 0 30px 44px rgba(13, 21, 46, 0.089);
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 48px 24px 24px;
+  margin-top: 24px;
+}
+.career .job-info {
+  display: flex;
+  flex-direction: column;
+}
+.career .job-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.career .job-location {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: -0.2px;
+  margin-top: 6px;
+}
+.career .job-arrow {
+  aspect-ratio: 0.74;
+  object-fit: contain;
+  object-position: center;
+  width: 20px;
+}
+.career .job-details {
+  border-radius: 0 0 16px 16px;
+  background-color: #ebf3ff;
+  z-index: 10;
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  flex-direction: column;
+  color: #090808;
+  padding: 24px;
+  font: 500 16px Inter, sans-serif;
+}
+.career .job-tags {
+  display: flex;
+  gap: 8px;
+}
+.career .job-tag {
+  border-radius: 29px;
+  border: 1px solid #090808;
+  background: #fff;
+  padding: 8px 16px;
+}
+.career .job-description {
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+}
+.career .job-skills-title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+.career .job-skills {
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+}
+.career .apply-button {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 29px;
+  background: #090808;
+  color: #fff;
+  gap: 8px;
+  padding: 12px 16px;
+  margin-top: 16px;
+  text-decoration: none;
+  width: 141px;
+}
+.career .apply-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 24px;
+}
+.career .application-section {
+  margin-top: 160px;
+  margin-bottom: 70px;
+}
+.career .application-title {
+  color: #000;
+  text-align: center;
+  font: 700 48px Inter, sans-serif;
+}
+.career .application-subtitle {
+    margin-top: 17px;
+    padding-left: 20%;
+    padding-right: 15%;
+  color: #3a3a3a;
+  text-align: center;
+ 
+  font: 500 18px/29px Inter, sans-serif;
+}
+.career .application-form {
+    margin-left: 10%;
+    margin-right: 10%;
+  align-items: center;
+   
+  margin-top: 71px;
+  display: flex;
+}
+.career .form-fields {
+  display: flex;
+  flex-direction: column;
+  width: 69%;
+}
+.career .form-field {
+  margin-top: 8px;
+}
+.career .form-label {
+  color: #383c3e;
+  font: 400 16px/1.6 Inter, sans-serif;
+}
+.career .form-input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #737b7d;
+  padding: 12px 0;
+  font: 400 16px/1.6 Inter, sans-serif;
+}
+.career .address-fields {
+  display: flex;
+  gap: 24px;
+}
+.career .address-field {
+  flex: 1;
+}
+.career .postcode-field {
+  width: 167px;
+}
+.career .file-upload {
+  display: flex;
+  flex-direction: column;
+ 
+  margin-top: 40px;
+}
+.career .file-upload-area {
+  border: 1px dashed #8e8e8e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 16px;
+}
+.career .file-upload-icon {
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 24px;
+}
+.career .file-upload-text {
+  font: 400 14px/1.6 Inter, sans-serif;
+  color: #8e8e8e;
+  margin-left: 24px;
+}
+.career .file-upload-helper {
+  font-size: 10px;
+  margin-top: 12px;
+  color: #8e8e8e;
+}
+.career .submit-button {
+    padding-left: 20%;
+  background: #008f17;
+  width: 547px;
+  max-width: 100%;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 16px;
+  font: 600 16px/1.6 Inter, sans-serif;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.career .contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 31%;
+  color: #383c3e;
+  font: 500 16px/1 Roboto, sans-serif;
+}
+.career .contact-info-title {
+  font: 700 20px Inter, sans-serif;
+  margin-bottom: 24px;
+}
+.career .contact-info-item {
+  margin-top: 16px;
+}
+
+
+.career-section {
+  background-color: #fff;
+  display: flex;
+  padding-top: 0px;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  width: 100%;
+}
+
+
+@media (max-width: 445px) {
+
+  .career .hero-section .hero-bg {
+    /* position: absolute !important; */
+    
+    max-width: 357px;
+  }
+  
+  .career .hero-content {
+    position: absolute;
+    width: 711px;
+    max-width: 100%;
+    padding: 10px 12px;
+  }
+  
+  .career .hero-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+}
+  
+  .career .hero-subtitle {
+    font-size: 18px;
+    /* margin-top: 16px; */
+    line-height: 1.5;
+}
+  
+  .career .cta-button {
+  
+    margin-top: 0px !important;
+  }
+  
+  
+  .career .benefits-section {
+    padding: 80px 20px;
+    max-width: 430px;
+    
+  }
+  
+  
+  .career .benefits-grid {
+  
+    max-width: 430px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    /* justify-items: center; */
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  .career .hero-section {
+    min-height: 0px;
+    padding: 0px;
+    margin-top: 140px;
+}
+
+.career .job-openings-section {
+  margin-top: 44px;
+  padding: 20px;
+}
+
+.career .application-section {
+  margin-top: 30px;
+  max-width: 430px;
+}
+}
+

@@ -1,0 +1,36 @@
+
+.main-content {
+  align-self: center;
+  display: flex;
+  width: 845px;
+  max-width: 100%;
+  flex-direction: column;
+  color: #161c2d;
+  margin: 110px 0 0 14px;
+  font: 700 16px/28px Inter, sans-serif;
+  margin-bottom: 87px;
+}
+.page-title {
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: -2px;
+  text-align: center;
+  align-self: center;
+}
+.policy-text {
+  background-blend-mode: normal;
+  font-weight: 500;
+  margin-top: 80px;
+}
+.section-title {
+  font-size: 18px;
+  line-height: 32px;
+  align-self: start;
+  margin-top: 62px;
+}
+.section-content {
+  background-blend-mode: normal;
+  font-weight: 500;
+  margin-top: 16px;
+}
+
